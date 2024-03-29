@@ -1,0 +1,8 @@
+code flow
+	- signup
+		- email and field for signup
+		- validation is added for email --> [RegularExpression("^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$", ErrorMessage = "Invalid Email Address" )]		
+		- validation is added for Password -->  [[DataType(DataType.Password)], ErrorMessage = "Invalid Password " )]
+	- Login
+		- Guid(global unique identifier is added for each user)
+		- password hashing is used
